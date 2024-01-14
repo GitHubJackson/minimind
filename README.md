@@ -1,15 +1,23 @@
 # MiniMind
 
-一个简单的思维导图组件，基于 jsmind
+一个基于 jsmind 的简洁而灵活的思维导图 react 组件
 
 ## 安装
 
 ```bash
-npm install @lucas/minimind
+npm install @lucascv/minimind
 ```
 
 使用组件
 
-```js
-import minimind from "minimind";
+```jsx
+import MiniMind from "@lucascv/minimind";
+
+function App() {
+  return (
+    <>
+      <MiniMind />
+    </>
+  );
+}
 ```
