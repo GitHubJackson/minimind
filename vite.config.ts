@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), cssInjectedByJsPlugin()],
   build: {
     lib: {
-      entry: "./src/components/MindMap/index.tsx",
+      entry: "./src/index.ts",
       name: "minimind",
       // formats: ['es'],
       fileName: (format) => `minimind.${format}.js`,

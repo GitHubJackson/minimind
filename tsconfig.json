@@ -19,12 +19,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
-    // /* ouput */
-    // "outDir": "lib/dist",
-    // /* 生成相关的 '.d.ts' 文件 */
-    // "declaration": true,
-    // /* '.d.ts' 文件输出目录 */
-    // "declarationDir": "lib/dist"
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
