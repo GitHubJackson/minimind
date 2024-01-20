@@ -6,6 +6,7 @@ import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js";
 export default defineConfig({
   plugins: [react(), cssInjectedByJsPlugin()],
   base: "/minimind",
+  // TODO 打包体验页面和三方库存在冲突，待优化
   // build: {
   //   lib: {
   //     entry: "./src/index.ts",
