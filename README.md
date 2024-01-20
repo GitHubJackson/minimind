@@ -2,6 +2,8 @@
 
 一个基于 jsmind 的简洁而灵活的思维导图 react 组件
 
+[在线体验](https://pole.zhouweibin.top/minimind/)
+
 ## 安装
 
 ```bash
@@ -21,3 +23,7 @@ function App() {
   );
 }
 ```
+
+## 最后
+
+欢迎 comment
